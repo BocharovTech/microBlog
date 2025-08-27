@@ -1,26 +1,24 @@
 .footer {
-	background-color: rgb(39, 39, 39);
-	padding: 50px 0;
-	font-size: 32px;
+  background-color: #000000;
+  padding: 11px 0;
+  font-size: 14px;
+  color: #fff;
+
+  h1 {
+    font-size: 32px;
+  }
+
+  a {
+    // color: var(--link-color);
     color: #fff;
+    text-decoration: underline;
+  }
 
-	h1 {
-		font-size: 32px;
-	}
-
-	a {
-		// color: var(--link-color);
-		color: #fff;
-		text-decoration: underline;
-	}
-
-	@media (max-width: 1200px) {
-		font-size: 26px;
-	}
+  @media (max-width: 800) {
+    font-size: 26px;
+  }
 }
 
 .footer__copyright {
-	padding: 10px 0;
-	font-size: 16px;
-
+  text-align: center;
 }

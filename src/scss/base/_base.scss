@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800");
-
+@import url("https://fonts.googleapis.com/css?family=Unbounded:200,300,regular,500,600,700,800,900");
 html {
   scroll-behavior: smooth;
   background-color: rgb(39, 39, 39);
@@ -9,7 +9,6 @@ body {
   background-color: var(--page-bg);
   color: var(--text-color);
   font-family: var(--font-main);
-  text-wrap: balance;
 }
 
 img {
@@ -41,6 +40,10 @@ pre.code {
   gap: 20px;
   &--form {
     flex-direction: column;
+  }
+  &--page-bg {
+    flex-direction: column;
+    background-color: #e7f0f3;
   }
 }
 
