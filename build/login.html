@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Вход | ВебКадеми</title>
+		<link rel="stylesheet" href="./css/main.css" />
+
+		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+	</head>
+
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__row">
+					<div class="header__logo">
+						<div class="logo">
+							<a href="index.html" class="logo__link">MY&#160;BLOG</a>
+						</div>
+					</div>
+					<div class="header__btns">
+						<a href="create-post.html" class="button">Добавить пост</a>
+						<a href="login.html" class="button">Вход</a>
+						<a href="#" class="button">🌘</a>
+					</div>
+
+					<button class="mobile-nav-btn none">
+						<div class="nav-icon"></div>
+					</button>
+				</div>
+			</div>
+		</header>
+		<div class="mobile-nav">
+			<ul class="mobile-nav__list">
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="docs.html">Документация</a></li>
+			</ul>
+		</div>
+
+		<main class="page-content">
+			<div class="container container-narrow">
+				<div class="form">
+					<div class="form__title">Вход</div>
+					<label class="fieldset">
+						<div class="label">Email</div>
+						<input type="email" class="input" />
+					</label>
+					<label class="fieldset">
+						<div class="label">Пароль</div>
+						<input type="password" class="input" />
+					</label>
+					<button class="button button--lg">Войти</button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__copyright">
+					@ 2025 Micro Blog
+				</div>
+			</div>
+		</footer>
+
+		<script src="./js/index.bundle.js"></script>
+	</body>
+</html>

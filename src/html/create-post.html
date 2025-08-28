@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Создать пост | ВебКадеми</title>
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicons/apple-touch-icon.png" />
+</head>
+
+<body>
+    @@include('blocks/header.html')
+    <main class="page-content">
+        <div class="container container-narrow">
+
+            <div class="form">
+                <div class="form__title">Добавить запись</div>
+                <label class="fieldset">
+                    <div class="label">Название</div>
+                    <input type="email" class="input">
+                </label>
+                <label class="fieldset">
+                    <div class="label">Содержание</div>
+                    <textarea class="textarea"></textarea>
+                </label>
+                <fieldset class="fieldset">
+                    <div class="label">Обложка</div>
+                    <label class="fieldset fieldset--checkbox">
+                        <input type="checkbox">
+                        Удалить обложку
+                    </label>
+                    <input type="file">
+                </fieldset>
+                <button class="button button--lg">Опубликовать</button>
+            </div>
+        </div>
+    </main>
+    @@include('blocks/footer.html')
+    <script src="./js/index.bundle.js"></script>
+</body>
+
+</html>

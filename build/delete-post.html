@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Главная | ВебКадеми</title>
+		<title>Удалить пост | ВебКадеми</title>
 		<link rel="stylesheet" href="./css/main.css" />
 
 		<link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
@@ -39,10 +39,12 @@
 			</ul>
 		</div>
 
-		<main class="page--content">
+		<main class="page-content">
 			<div class="container container-narrow">
-				<div class="posts-wrapper">
-					<article class="post">
+				<div class="form">
+					<h2 class="form__title">Удалить пост?</h2>
+
+					<article class="post post--preview">
 						<div class="post__date">16.03.2025</div>
 						<h2 class="post__title">Сила, заключённая в&#160;металле</h2>
 						<div class="post__img-wrapper">
@@ -62,23 +64,12 @@
 						<div class="post__readmore">
 							<a href="post.html" class="link">Читать далее</a>
 						</div>
-						<div class="post__buttons">
-							<a href="edit-post.html" class="button button--secondary">Редактировать</a>
-							<a href="delete-post.html" class="button button--secondary">Удалить</a>
-						</div>
 					</article>
-					<article class="post">
-						<div class="post__date">16.03.2025</div>
-						<div class="post__text post__text--large">
-							<p>
-								Горы в&#160;тишине, отражение в&#160;воде&#160;&#8212; мир застыл, дыша. Шепчет бриз траве, солнце тает за&#160;холмами, чайка вдаль летит. 🌿✨
-							</p>
-						</div>
-						<div class="post__buttons">
-							<a href="edit-post.html" class="button button--secondary">Редактировать</a>
-							<a href="delete-post.html" class="button button--secondary">Удалить</a>
-						</div>
-					</article>
+
+					<div class="form__btns-wrapper">
+						<button class="button button--lg">Удалить</button>
+						<button class="button button--secondary button--lg">Отмена</button>
+					</div>
 				</div>
 			</div>
 		</main>

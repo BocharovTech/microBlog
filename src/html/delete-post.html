@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Главная | ВебКадеми</title>
+    <title>Удалить пост | ВебКадеми</title>
     <link rel="stylesheet" href="./css/main.css" />
 
     <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg" />
@@ -14,11 +14,21 @@
 
 <body>
     @@include('blocks/header.html')
-    <main class="page--content">
+    <main class="page-content">
         <div class="container container-narrow">
-            <div class="posts-wrapper">
-                @@include('blocks/post.html')
-                @@include('blocks/post-mini.html')
+
+            <div class="form">
+                <h2 class="form__title">Удалить пост?</h2>
+
+
+                @@include("blocks/post-to-delete.html")
+
+
+                <div class="form__btns-wrapper">
+                    <button class="button button--lg">Удалить</button>
+                    <button class="button button--secondary button--lg">Отмена</button>
+                </div>
+
             </div>
         </div>
     </main>
