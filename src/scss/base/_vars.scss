@@ -14,9 +14,32 @@
   --laptop-size: 1199px;
   --tablet-size: 959px;
   --mobile-size: 599px;
+
+  --container-narrow: 630px;
+
+  --page-content-paddings: 40px 0;
+  --post-border-radius: 12px;
+  --post-gap-between: 14px;
+  --post-title: 28px;
+  --post-text: 16px;
+  --post-img-radius: 12px;
+  --posts-wrapper-gap: 30px;
 }
 
 .dark {
   --page-bg: #252526;
   --text-color: #fff;
+}
+
+@include mobile {
+  :root {
+    --container-narrow: 100%;
+    --post-border-radius: 0px;
+    --page-content-paddings: 0px 0px;
+    --post-gap-between: 12px;
+    --post-title: 22px;
+    --post-text: 14px;
+    --post-img-radius: 8px;
+    --posts-wrapper-gap: 10px;
+  }
 }

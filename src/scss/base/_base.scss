@@ -32,8 +32,8 @@ pre.code {
   border-radius: 4px;
 }
 
-.page-content {
-  padding: 40px 0px;
+.page--content {
+  padding: var(--page-content-paddings, 40px 0px);
 }
 
 .ui-block {

@@ -15,7 +15,7 @@
 }
 
 .container-narrow {
-  max-width: 630px;
+  max-width: var(--container-narrow);
   padding: 0;
 }
 

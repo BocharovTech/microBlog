@@ -16,15 +16,30 @@
     margin-left: auto;
     display: flex;
     gap: 10px;
+
+    @include tablet {
+      display: none;
+    }
   }
 
   &__logo {
     justify-self: center;
   }
+
+  &__mobile {
+    &-nav {
+      &-btn {
+        display: block;
+        justify-self: end;
+        align-self: center;
+        z-index: 999;
+      }
+    }
+  }
 }
 
-// .header__nav {
-// 	@include tablet {
-// 		display: none;
-// 	}
-// }
+.header__nav {
+  @include tablet {
+    display: none;
+  }
+}
