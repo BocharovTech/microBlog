@@ -24,11 +24,28 @@
   --post-text: 16px;
   --post-img-radius: 12px;
   --posts-wrapper-gap: 30px;
+
+  --post-bg: #fff;
+  --post-text-color: #000;
+  --link-color: #0069fc;
+
+  --label-color: #000;
+
+  --post-prev-border-color: rgba(0, 0, 0, 0.1);
+  --post-date-opacity: 0.3;
 }
 
 .dark {
   --page-bg: #252526;
   --text-color: #fff;
+  --post-bg: #313131;
+  --post-text-color: #efefef;
+  --link-color: #349af3;
+
+  --label-color: #6bb6ed;
+
+  --post-prev-border-color: rgba(255, 255, 255, 0.1);
+  --post-date-opacity: 1;
 }
 
 @include mobile {
